@@ -16,6 +16,37 @@
   --cardBG: rgb(225, 225, 235);
 }
 
+.navLists {
+  display: flex;
+align-items: center;
+justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 0;
+
+  .navItem {
+
+    .navLink {
+      color: white;
+      font-size: -9rem;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--PrimaryColor);
+      }
+    }
+  }
+
+  .btn {
+
+    a {
+      font-weight: 600;
+      color: var(--whiteColor);
+      font-weight: 500;
+    }
+  }
+}
+
 .header {
   position: fixed;
   display: flex;
@@ -67,7 +98,7 @@
           padding: 0.5rem 0;
 
           .navLink {
-            color: var(--textColor);
+            color: white;
             font-size: -9rem;
             font-weight: 600;
 
@@ -138,7 +169,7 @@
 
         .navItem {
           .navLink {
-            color: var(--textColor);
+            color: white;
             padding: 0 0.45rem;
             font-size: 0.9rem;
             font-weight: 500;
